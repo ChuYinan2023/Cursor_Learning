@@ -34,3 +34,18 @@ Both implementations include comprehensive test cases covering:
 - Edge cases (empty input, single character)
 - Large inputs
 - Special characters and numbers
+
+## 3. Median of Two Sorted Arrays
+
+### Problem Description
+Given two sorted arrays `nums1` and `nums2` of size `m` and `n` respectively, return the median of the two sorted arrays.
+
+The overall run time complexity should be `O(log (m+n))`.
+
+
+### Algorithm Analysis
+- **Time Complexity**: O(log(min(m, n)))  
+  We perform binary search on the smaller array, eliminating half of the remaining elements in each step.
+- **Space Complexity**: O(log(min(m, n)))  
+  Due to the recursion stack depth, which is logarithmic in the size of the smaller array.
+
