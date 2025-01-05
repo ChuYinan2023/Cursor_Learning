@@ -28,12 +28,6 @@ Given a string s, find the length of the longest substring without repeating cha
 
 ---
 
-## Test Cases
-Both implementations include comprehensive test cases covering:
-- Basic examples
-- Edge cases (empty input, single character)
-- Large inputs
-- Special characters and numbers
 
 ## 3. Median of Two Sorted Arrays
 
@@ -49,3 +43,9 @@ The overall run time complexity should be `O(log (m+n))`.
 - **Space Complexity**: O(log(min(m, n)))  
   Due to the recursion stack depth, which is logarithmic in the size of the smaller array.
 
+## Test Cases
+Both implementations include comprehensive test cases covering:
+- Basic examples
+- Edge cases (empty input, single character)
+- Large inputs
+- Special characters and numbers
