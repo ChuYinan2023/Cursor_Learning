@@ -49,3 +49,16 @@ Both implementations include comprehensive test cases covering:
 - Edge cases (empty input, single character)
 - Large inputs
 - Special characters and numbers
+
+## 4. Longest Palindromic Substring
+### Problem Description
+Given a string s, find the longest palindromic substring in s.
+
+
+### Algorithm Analysis
+- **Time Complexity**: O(n^2)  
+  Where n is the length of the string. We iterate through each character as a potential center of a palindrome.
+- **Space Complexity**: O(1)  
+  We use only a few variables to track the longest palindrome.
+
+```
